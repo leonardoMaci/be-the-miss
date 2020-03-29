@@ -36,7 +36,13 @@ export default function Profile() {
             setIncident(incident.filter(incident => incident.id !== id));
         }catch(err){
             alert('Erro ao deletas tente novamente mais tarde!');
-        };
+        };        
+        // api.delete('oasjdoi')
+        // .then(reponse => {
+
+        // }).catch(error => {
+
+        // })
     };    
 
     function handleLogout(){

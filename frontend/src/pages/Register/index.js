@@ -29,8 +29,6 @@ export default function Register() {
             UF
         };
 
-        console.log(data);
-
         try{
             const reponse = await api.post('ongs', data);
             alert(`Seu ID para login: ${reponse.data.id}.`);
